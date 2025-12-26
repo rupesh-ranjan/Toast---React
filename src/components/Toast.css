@@ -1,0 +1,39 @@
+.toast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.toast-icon {
+    margin-right: 10px;
+}
+
+.toast-message {
+    flex: 1;
+}
+
+.toast.toast-success {
+    background-color: green;
+}
+
+.toast.toast-error {
+    background-color: red;
+}
+
+.toast.toast-info {
+    background-color: aliceblue;
+}
+
+.toast.toast-warning {
+    background-color: yellow;
+}
+
+.toast.toast-message {
+    background-color: rgb(173, 205, 233);
+}
+
+.toast-close-button:hover {
+    cursor: pointer;
+}
